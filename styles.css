@@ -1,15 +1,39 @@
 /* Type */
 
 body {
-	background-color: white;
-	color: black;
-	font-family: sans-serif;
-	line-height: 0;
+	background-color: grey;
+	color: coral;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1;
     font-size: 5em;
+	position: absolute;
+  transform: skewY(20deg);
+	position: relative;
+	right: 5px;
+	position: fixed;
+	bottom: -70px;
+
 }
-.new-color {
-	color: blue;
+p {
+	color: black;
+	font-family: 'Mansalva', cursive;
+	transform: rotate(45deg);
+
+
+
+
+
 }
-.other-font {
-	font-family: serif;
+
+h2 {
+	font-size: 1em;
+	font-weight: 400;
+	position: absolute;
+	top: 10px;
+	left: -500px;
+	transform: skewY(-20deg);
 }
+
+background-color{ grey;
+	border-style: solid;
+	box-sizing: border-box;
